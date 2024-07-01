@@ -25,12 +25,12 @@ def get_contract_config(chainID: int) -> ContractConfig:
 
     CONFIG = {
         137: ContractConfig(
-            exchange="0x4bFb41d5B3570DeFd03C39a9A4D8dE6Bd8B8982E",
+            neg_risk_adapter="0xd91E80cF2E7be2e162c6513ceD06f1dD0dA35296",
             collateral="0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
             conditional_tokens="0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
         ),
         80002: ContractConfig(
-            exchange="0xdFE02Eb6733538f8Ea35D585af8DE5958AD99E40",
+            neg_risk_adapter="",
             collateral="0x9c4e1703476e875070ee25b56a58b008cfb8fa78",
             conditional_tokens="0x69308FB512518e39F9b16112fA8d994F4e2Bf8bB",
         ),
